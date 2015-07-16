@@ -46,11 +46,11 @@ void loop()
     digitalWrite(13, LOW); // set the LED off
     ledState = 0;
   }
+  noInterrupts();
   for(int i = 0; i < 4; i++) {
     dist[i] = caculateDistance(i);
   }
-  Serial.println(reg);
-  Serial.println(dist[reg]);
+  interrupts();
   delay(1000);
 }
 
