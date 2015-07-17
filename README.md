@@ -1,6 +1,6 @@
 # ultrasonic-arduino
 
-An Arduino-based ultrasonic distance module communicating through serial port.
+An Arduino-based ultrasonic distance module communicating through i2c protocol.
 
 Hardware
 --------
