@@ -5,8 +5,9 @@ An Arduino-based ultrasonic distance module communicating through i2c protocol.
 Hardware
 --------
 - US-100 or other compatible module
-- Arduino pro mini
+- Arduino Pro Mini
 
+### Pin-Pin map
 No|Trigger|Echo
 ----|-------|----
 0|Pin 3|Pin 2
