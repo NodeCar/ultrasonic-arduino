@@ -19,6 +19,8 @@ Usage
 -----
 Connect i2c wire to Arduino, configure your device as i2c master, then you are ready to go.
 
+i2c address: 0x08
+
 First, make a write call and write a byte (indicating No. of ultrasonic sensor)
 
 Second, make a read call and read two byte (big endian), translate it and get final distance
