@@ -4,7 +4,8 @@ An Arduino-based ultrasonic distance module communicating through i2c protocol.
 
 Hardware
 --------
-US-100 or other compatible module
+- US-100 or other compatible module
+- Arduino pro mini
 
 No|Trigger|Echo
 ----|-------|----
