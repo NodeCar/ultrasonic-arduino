@@ -46,11 +46,13 @@ void loop()
     digitalWrite(13, LOW); // set the LED off
     ledState = 0;
   }
-  noInterrupts();
+  
   for(int i = 0; i < 4; i++) {
+    noInterrupts();
     dist[i] = caculateDistance(i);
+    interrupts();
   }
-  interrupts();
+
   delay(1000);
 }
 
